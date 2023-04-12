@@ -2,7 +2,7 @@
 + During this lab, you will develop a simple table view application that represents a list of cities
 you have visited.
 Each city should have the following information:
-++ Name of the city
+a) Name of the city
 b) Picture of a city
 c) A Small description of the city.
 + Table row should have (a) and (b) above.
