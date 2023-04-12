@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFFF747929C8F70A0048CF91 /* Lab6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF747829C8F70A0048CF91 /* Lab6App.swift */; };
-		AFFF747B29C8F70A0048CF91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF747A29C8F70A0048CF91 /* ContentView.swift */; };
-		AFFF747D29C8F70B0048CF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFF747C29C8F70B0048CF91 /* Assets.xcassets */; };
-		AFFF748029C8F70B0048CF91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFF747F29C8F70B0048CF91 /* Preview Assets.xcassets */; };
+		AF87940A29CA56CF007D4557 /* Lab6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87940929CA56CF007D4557 /* Lab6App.swift */; };
+		AF87940C29CA56CF007D4557 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87940B29CA56CF007D4557 /* ContentView.swift */; };
+		AF87940E29CA56D1007D4557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF87940D29CA56D1007D4557 /* Assets.xcassets */; };
+		AF87941129CA56D1007D4557 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF87941029CA56D1007D4557 /* Preview Assets.xcassets */; };
+		AF87941329CA56D1007D4557 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87941229CA56D1007D4557 /* Persistence.swift */; };
+		AF87941629CA56D1007D4557 /* Lab6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF87941429CA56D1007D4557 /* Lab6.xcdatamodeld */; };
+		AF87941D29CA5794007D4557 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87941C29CA5794007D4557 /* ImagePicker.swift */; };
+		AF87942129CA57CB007D4557 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87942029CA57CB007D4557 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AFFF747529C8F70A0048CF91 /* Lab6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab6.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFFF747829C8F70A0048CF91 /* Lab6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab6App.swift; sourceTree = "<group>"; };
-		AFFF747A29C8F70A0048CF91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AFFF747C29C8F70B0048CF91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AFFF747F29C8F70B0048CF91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF87940629CA56CF007D4557 /* Lab6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF87940929CA56CF007D4557 /* Lab6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab6App.swift; sourceTree = "<group>"; };
+		AF87940B29CA56CF007D4557 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF87940D29CA56D1007D4557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF87941029CA56D1007D4557 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF87941229CA56D1007D4557 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AF87941529CA56D1007D4557 /* Lab6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab6.xcdatamodel; sourceTree = "<group>"; };
+		AF87941C29CA5794007D4557 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AF87942029CA57CB007D4557 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AFFF747229C8F70A0048CF91 /* Frameworks */ = {
+		AF87940329CA56CF007D4557 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +40,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AFFF746C29C8F70A0048CF91 = {
+		AF8793FD29CA56CF007D4557 = {
 			isa = PBXGroup;
 			children = (
-				AFFF747729C8F70A0048CF91 /* Lab6 */,
-				AFFF747629C8F70A0048CF91 /* Products */,
+				AF87940829CA56CF007D4557 /* Lab6 */,
+				AF87940729CA56CF007D4557 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AFFF747629C8F70A0048CF91 /* Products */ = {
+		AF87940729CA56CF007D4557 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AFFF747529C8F70A0048CF91 /* Lab6.app */,
+				AF87940629CA56CF007D4557 /* Lab6.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFFF747729C8F70A0048CF91 /* Lab6 */ = {
+		AF87940829CA56CF007D4557 /* Lab6 */ = {
 			isa = PBXGroup;
 			children = (
-				AFFF747829C8F70A0048CF91 /* Lab6App.swift */,
-				AFFF747A29C8F70A0048CF91 /* ContentView.swift */,
-				AFFF747C29C8F70B0048CF91 /* Assets.xcassets */,
-				AFFF747E29C8F70B0048CF91 /* Preview Content */,
+				AF87940929CA56CF007D4557 /* Lab6App.swift */,
+				AF87940B29CA56CF007D4557 /* ContentView.swift */,
+				AF87941C29CA5794007D4557 /* ImagePicker.swift */,
+				AF87942029CA57CB007D4557 /* DetailView.swift */,
+				AF87940D29CA56D1007D4557 /* Assets.xcassets */,
+				AF87941229CA56D1007D4557 /* Persistence.swift */,
+				AF87941429CA56D1007D4557 /* Lab6.xcdatamodeld */,
+				AF87940F29CA56D1007D4557 /* Preview Content */,
 			);
 			path = Lab6;
 			sourceTree = "<group>";
 		};
-		AFFF747E29C8F70B0048CF91 /* Preview Content */ = {
+		AF87940F29CA56D1007D4557 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AFFF747F29C8F70B0048CF91 /* Preview Assets.xcassets */,
+				AF87941029CA56D1007D4557 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +82,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AFFF747429C8F70A0048CF91 /* Lab6 */ = {
+		AF87940529CA56CF007D4557 /* Lab6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFFF748329C8F70B0048CF91 /* Build configuration list for PBXNativeTarget "Lab6" */;
+			buildConfigurationList = AF87941929CA56D1007D4557 /* Build configuration list for PBXNativeTarget "Lab6" */;
 			buildPhases = (
-				AFFF747129C8F70A0048CF91 /* Sources */,
-				AFFF747229C8F70A0048CF91 /* Frameworks */,
-				AFFF747329C8F70A0048CF91 /* Resources */,
+				AF87940229CA56CF007D4557 /* Sources */,
+				AF87940329CA56CF007D4557 /* Frameworks */,
+				AF87940429CA56CF007D4557 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +96,25 @@
 			);
 			name = Lab6;
 			productName = Lab6;
-			productReference = AFFF747529C8F70A0048CF91 /* Lab6.app */;
+			productReference = AF87940629CA56CF007D4557 /* Lab6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AFFF746D29C8F70A0048CF91 /* Project object */ = {
+		AF8793FE29CA56CF007D4557 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					AFFF747429C8F70A0048CF91 = {
+					AF87940529CA56CF007D4557 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = AFFF747029C8F70A0048CF91 /* Build configuration list for PBXProject "Lab6" */;
+			buildConfigurationList = AF87940129CA56CF007D4557 /* Build configuration list for PBXProject "Lab6" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +122,46 @@
 				en,
 				Base,
 			);
-			mainGroup = AFFF746C29C8F70A0048CF91;
-			productRefGroup = AFFF747629C8F70A0048CF91 /* Products */;
+			mainGroup = AF8793FD29CA56CF007D4557;
+			productRefGroup = AF87940729CA56CF007D4557 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFFF747429C8F70A0048CF91 /* Lab6 */,
+				AF87940529CA56CF007D4557 /* Lab6 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AFFF747329C8F70A0048CF91 /* Resources */ = {
+		AF87940429CA56CF007D4557 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFFF748029C8F70B0048CF91 /* Preview Assets.xcassets in Resources */,
-				AFFF747D29C8F70B0048CF91 /* Assets.xcassets in Resources */,
+				AF87941129CA56D1007D4557 /* Preview Assets.xcassets in Resources */,
+				AF87940E29CA56D1007D4557 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AFFF747129C8F70A0048CF91 /* Sources */ = {
+		AF87940229CA56CF007D4557 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFFF747B29C8F70A0048CF91 /* ContentView.swift in Sources */,
-				AFFF747929C8F70A0048CF91 /* Lab6App.swift in Sources */,
+				AF87941329CA56D1007D4557 /* Persistence.swift in Sources */,
+				AF87940C29CA56CF007D4557 /* ContentView.swift in Sources */,
+				AF87942129CA57CB007D4557 /* DetailView.swift in Sources */,
+				AF87941D29CA5794007D4557 /* ImagePicker.swift in Sources */,
+				AF87941629CA56D1007D4557 /* Lab6.xcdatamodeld in Sources */,
+				AF87940A29CA56CF007D4557 /* Lab6App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AFFF748129C8F70B0048CF91 /* Debug */ = {
+		AF87941729CA56D1007D4557 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		AFFF748229C8F70B0048CF91 /* Release */ = {
+		AF87941829CA56D1007D4557 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +275,7 @@
 			};
 			name = Release;
 		};
-		AFFF748429C8F70B0048CF91 /* Debug */ = {
+		AF87941A29CA56D1007D4557 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -287,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		AFFF748529C8F70B0048CF91 /* Release */ = {
+		AF87941B29CA56D1007D4557 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -318,25 +334,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFFF747029C8F70A0048CF91 /* Build configuration list for PBXProject "Lab6" */ = {
+		AF87940129CA56CF007D4557 /* Build configuration list for PBXProject "Lab6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFFF748129C8F70B0048CF91 /* Debug */,
-				AFFF748229C8F70B0048CF91 /* Release */,
+				AF87941729CA56D1007D4557 /* Debug */,
+				AF87941829CA56D1007D4557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFFF748329C8F70B0048CF91 /* Build configuration list for PBXNativeTarget "Lab6" */ = {
+		AF87941929CA56D1007D4557 /* Build configuration list for PBXNativeTarget "Lab6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFFF748429C8F70B0048CF91 /* Debug */,
-				AFFF748529C8F70B0048CF91 /* Release */,
+				AF87941A29CA56D1007D4557 /* Debug */,
+				AF87941B29CA56D1007D4557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF87941429CA56D1007D4557 /* Lab6.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF87941529CA56D1007D4557 /* Lab6.xcdatamodel */,
+			);
+			currentVersion = AF87941529CA56D1007D4557 /* Lab6.xcdatamodel */;
+			path = Lab6.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = AFFF746D29C8F70A0048CF91 /* Project object */;
+	rootObject = AF8793FE29CA56CF007D4557 /* Project object */;
 }
